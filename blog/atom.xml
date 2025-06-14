@@ -22,6 +22,7 @@ layout: feed
 			<id>http://hankquinlan.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
+			<link rel="alternate" type="application/atom+xml" title="RSS" href="/blog/atom.xml">
 	{% endfor %}
 
 </feed>
