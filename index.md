@@ -8,6 +8,7 @@ Here are a few things I might include later:
 **Stay tuned for updates!**
 
 <!-- ArcGIS Map Embed -->
+{% raw %}
 <iframe 
   width="100%" 
   height="600" 
@@ -16,3 +17,4 @@ Here are a few things I might include later:
   allowfullscreen 
   src="https://www.arcgis.com/apps/Embed/index.html?webmap=7d957753e66f43edb1f93d2cd63877a2">
 </iframe>
+{% endraw %}
